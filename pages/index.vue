@@ -12,8 +12,14 @@
     </p>
 
     <div class="button-container">
-      <a href="#" class="button--green">Products</a>
-      <a href="#" class="button--green">Product</a>
+      <a href="/products" class="button--green"
+        >Products (Server Side Rendering)</a
+      >
+      <!-- Serveri tekrardan render ediyor sayfalar arası geçiş yaparken sayfa yenilenmesine sebep oluyor -->
+      <nuxt-link to="/products" tag="a" class="button--green"
+        >Products</nuxt-link
+      >
+      <!-- Sayfalar arası geçişlerde sayfa yenilenmeden geçiş sağlar bu da serveri tekrardan render etmiyor. -->
     </div>
   </section>
 </template>
