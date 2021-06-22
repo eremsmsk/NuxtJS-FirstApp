@@ -1,4 +1,4 @@
-# myapp - Built to learn nuxt js
+# myFirstApp - Built to learn nuxt js
 
 ## Build Setup
 
