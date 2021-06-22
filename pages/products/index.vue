@@ -1,25 +1,16 @@
 <template>
   <div class="container">
-    <h1>products page</h1>
-    <div class="input-container">
-      <input type="text" v-model="productID" class="form-control" />
-      <button class="button--green" @click="showProduct">Show Product</button>
-    </div>
+    <h1>Products List</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quam
+      ipsam hic impedit recusandae, rerum autem quae expedita iste. Repellendus
+      placeat aspernatur est doloremque sapiente cum explicabo quos commodi
+      suscipit!
+    </p>
   </div>
 </template>
 <script>
-export default {
-  data() {
-    return {
-      productID: null,
-    };
-  },
-  methods: {
-    showProduct() {
-      this.$router.push("/products/" + this.productID);
-    },
-  },
-};
+export default {};
 </script>
 <style>
 </style>

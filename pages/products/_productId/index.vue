@@ -9,6 +9,7 @@
 <script>
 export default {
     validate(arg){
+        console.log(arg);
         return /^\d+$/.test(arg.params.productId);
     },
   data() {
