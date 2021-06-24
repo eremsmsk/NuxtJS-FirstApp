@@ -10,7 +10,7 @@
 export default {
     validate(arg){
         console.log(arg);
-        return /^\d+$/.test(arg.params.productId);
+        return /^\d+$/.test(arg.params.productId); //Regex kalıp
     },
   data() {
     return {
